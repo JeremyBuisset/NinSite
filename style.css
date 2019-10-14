@@ -1,0 +1,81 @@
+#logo{
+    background: #e60012;
+    width: 185px;
+    height: 170px;
+    position: absolute;
+    left:100px;
+    border-radius: 2em;
+    top: -40px
+}
+
+#nin {
+    color: white;
+    font-family: Lato, serif;
+    font-size: 20px;
+    width: 130px;
+    font-weight: bold;
+    border: 4px solid white;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 25px;
+
+}
+
+p{
+    margin-top:0;
+    margin-bottom:0;
+
+}
+
+#bande1{
+    width: 100%;
+    height: 40px;
+    background: white;
+}
+
+#bande2{
+    width: 100%;
+    height: 40px;
+    background: #ece6e6;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    background: #ece6e6;
+    width: 150px;
+    height: 20px;
+    float:right;
+    text-align: center;
+    padding-top: 12.5px;
+    padding-bottom: 6px;
+    margin-right: 20px;
+
+}
+
+#logo:hover{
+    animation-name: nomAnimation;
+    animation-duration: 1s;
+}
+
+#nin:hover{
+    animation-name: Animation;
+    animation-duration: 1s;
+}
+
+@keyframes nomAnimation {
+    0% {height: 170px}
+    100% {height: 200px}
+}
+
+@keyframes Animation{
+    0% {margin-top: 90px}
+    100% {margin-top: 130px}
+}
+
+li,#3:hover{
+    background-color: green;
+}
