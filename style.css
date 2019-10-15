@@ -4,7 +4,7 @@
     height: 170px;
     position: absolute;
     left:100px;
-    border-radius: 2em;
+    border-radius: 0 0 2em 2em;
     top: -40px
 }
 
@@ -19,12 +19,20 @@
     text-align: center;
     margin-top: 90px;
     margin-left: 25px;
-
 }
 
 p{
     margin-top:0;
     margin-bottom:0;
+}
+
+#register{
+    horiz-align: right;
+    width:350px;
+    margin-left: 50%;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 2em;
 
 }
 
@@ -53,29 +61,62 @@ ul li{
     padding-top: 12.5px;
     padding-bottom: 6px;
     margin-right: 20px;
+}
 
+#a1:hover{
+    background-color: white;
+}
+#a2:hover{
+    background-color: #CC1b21;
+}
+#a3:hover{
+    background-color: #f77d00;
+}
+#a4:hover{
+    background-color: white;
+}
+#a5:hover{
+    background-color: #FF3F3F;
+}
+#a6:hover{
+    background-color: #00BFF3;
+}
+#a7:hover{
+    background-color: white;
 }
 
 #logo:hover{
-    animation-name: nomAnimation;
-    animation-duration: 1s;
-}
-
-#nin:hover{
     animation-name: Animation;
     animation-duration: 1s;
 }
 
-@keyframes nomAnimation {
-    0% {height: 170px}
-    100% {height: 200px}
+@keyframes Animation {
+    0% {margin-top: 0}
+    50% {margin-top: 20px}
+    100% {margin-top: 0}
 }
 
-@keyframes Animation{
-    0% {margin-top: 90px}
-    100% {margin-top: 130px}
+#infos{
+    position: absolute;
+    font-family: Lato, serif;
+    left:1150px;
+    top: 30px;
 }
 
-li,#3:hover{
-    background-color: green;
+.button {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    background-color: #e60012;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    left:1270px;
+    top:10px;
+    border-radius: 0.5em;
 }
